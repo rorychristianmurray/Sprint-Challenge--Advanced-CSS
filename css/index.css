@@ -5,6 +5,12 @@
   font-family: 'Ubuntu', sans-serif;
   text-decoration: none;
 }
+.sign-up-button-styles {
+  height: 25px ;
+  font-size: 1.5rem;
+  text-align: center;
+  vertical-align: middle;
+}
 .center {
   display: flex;
   justify-content: center;
@@ -187,6 +193,7 @@ h1 {
 }
 .nav-bar {
   border: 1px solid fuchsia;
+  margin-top: 15px;
 }
 .nav-button {
   width: 100%;
@@ -254,6 +261,25 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #22283A;
+  color: white;
+  border-radius: 7.5px;
+  width: 25%;
+  height: 25px ;
+  font-size: 1.5rem;
+  text-align: center;
+  vertical-align: middle;
+}
+.home .walk .walk-text .btn:hover {
+  background: white;
+  color: #22283A;
+  border-radius: 10px;
+  width: 25%;
 }
 .home .walk .walk-img {
   width: 46%;

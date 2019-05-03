@@ -58,7 +58,16 @@
       }
 
       .btn {
+        .center();
+        .button(@btn-bg-color, white, 7.5px, 25%);
+        .sign-up-button-styles();
+      
+        &:hover {
+          .button(white, @btn-bg-color, 10px, 25%);
+      
+        }
       }
+      
     }
 
     .walk-img {
