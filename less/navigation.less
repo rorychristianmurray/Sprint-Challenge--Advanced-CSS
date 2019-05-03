@@ -7,6 +7,7 @@
     border: 1px solid red;
     flex-direction: column;
     padding: 20px;
+
 }
 
 h1 {
@@ -17,11 +18,15 @@ h1 {
 .nav-bar {
     border: 1px solid fuchsia;
     margin-top: 15px;
+    
+    @media @phone {
+        white-space: nowrap;
+    }
 
 }
 
 .nav-button {
-    width: 100%;
+    width: 80%;
     .nav-button-styling();
 }
 
