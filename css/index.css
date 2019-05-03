@@ -1,3 +1,15 @@
+.nav-button-styling {
+  font-size: 1.5rem;
+  margin: 20px;
+  color: #454A59;
+  font-family: 'Ubuntu', sans-serif;
+  text-decoration: none;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -159,6 +171,37 @@ p {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+.header-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #F6F6F6;
+  border: 1px solid red;
+  flex-direction: column;
+  padding: 20px;
+}
+h1 {
+  font-size: 3.7rem;
+  color: #454A59;
+}
+.nav-bar {
+  border: 1px solid fuchsia;
+}
+.nav-button {
+  width: 100%;
+  font-size: 1.5rem;
+  margin: 20px;
+  color: #454A59;
+  font-family: 'Ubuntu', sans-serif;
+  text-decoration: none;
+}
+.top-img {
+  border-radius: 10px;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
 }
 footer {
   color: #22283B;
