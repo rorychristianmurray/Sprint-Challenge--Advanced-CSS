@@ -1,1 +1,37 @@
 // Navigation code here
+
+
+.header-text {
+    .center();
+    background: @nav-bg;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+h1 {
+    font-size: 3.7rem;
+    color: @river-bend
+  }
+
+.nav-bar {
+    margin-top: 15px;
+    
+    @media @phone {
+        white-space: nowrap;
+    }
+
+}
+
+.nav-button {
+    width: 80%;
+    .nav-button-styling();
+}
+
+.top-img {
+    border-radius: 10px;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex; 
+}
